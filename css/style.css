@@ -155,7 +155,7 @@ div.section-three {
 }
 
 .section-three h1.quote-body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 1.5;
   font-weight: 100;
   width: 50%;
@@ -178,24 +178,35 @@ div.section-three {
 
 .section-four-container {
   display: flex;
-  margin: 50px 0;
+  margin: 80px 0;
   background-color: #4153ee;
   width: 80%;
-  height: 200px;
+  height: 160px;
   border-radius: 10px;
   color: #fff;
   justify-content: center;
   align-content: center;
-
   align-items: center;
 }
 
 .section-four-left {
   justify-content: center;
   align-items:stretch;
-
 }
 
 .section-four-left .text2 {
   font-weight: 100;
+    color: rgba(240, 248, 255, 0.719);
+}
+.section-four-right a.custom{
+  border: 2px solid #fff;
+  background: none;
+}
+
+/* SECTION FIVE */
+.footer{
+padding: 40px 0;
+text-align: center;
+  background-color:  rgb(26, 58, 88);
+  color: #fff;
 }
